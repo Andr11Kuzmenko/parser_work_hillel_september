@@ -33,8 +33,6 @@ def main(json_mode: bool, db_mode: bool):
         page += 1
 
 
-
-
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('-json', action='store_true', default=False)
